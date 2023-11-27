@@ -1,0 +1,9 @@
+sig_list = []
+TTF_list = []
+failure_duration_list = []
+false_rate_list = []
+true_rate_list = []
+N = 10000  # 单轮模拟时段
+NN = 1000  # 模拟轮数
+s = 0  # 轮数初始
+unit_T = 1 / 12  # 暖通空调的时间粒度为5分钟
